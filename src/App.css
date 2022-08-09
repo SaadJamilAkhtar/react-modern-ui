@@ -30,8 +30,8 @@ a {
 
 .gradient__text {
     background: var(--gradient-text);
-    background-clip: content-box;
-    -webkit-background-clip: content-box;
+    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
