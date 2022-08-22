@@ -1,0 +1,10 @@
+.gpt3__features{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gpt3__features-heading{
+    flex: 1;
+}
+.gpt3__features-container{
+    flex: 2;
+}
