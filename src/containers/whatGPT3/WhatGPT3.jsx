@@ -4,7 +4,7 @@ import {Feature} from "../../components";
 
 function WhatGpt3(props) {
     return (
-        <div className="gpt3__whatgpt3 section__margin">
+        <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
             <div className="gpt3__whatgpt3-feature">
                 <Feature
                     title={'What is GPT-3'}
