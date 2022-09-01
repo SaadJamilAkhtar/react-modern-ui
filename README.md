@@ -2,7 +2,7 @@
 An introductory website for GPT-3 AI using modern web style and react
 ## Preview
 ___
-Get a live preview [Here](https://react-modern-ui.vercel.app)
+###  Get a live preview [Here](https://react-modern-ui.vercel.app)
 ![IMG](https://github.com/SaadJamilAkhtar/Project-Images/blob/master/GPT-1.png?raw=true)
 ## Technologies
 ___
