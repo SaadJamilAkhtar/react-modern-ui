@@ -2,10 +2,16 @@ import React from 'react';
 import './header.css';
 import people from '../../assets/people.png'
 import AI from '../../assets/ai.png'
+import {motion} from "framer-motion";
 
 function Header(props) {
     return (
-        <div className="gpt3__header section__padding" id="home">
+        <motion.div
+            className="gpt3__header section__padding"
+            id="home"
+            whileInView={{opacity: [0, 1], y: [100, 0]}}
+            transition={{duration: 0.5}}
+        >
             <div className="gpt3__header-content">
                 <h1 className="gradient__text">
                     Let's Build Something amazing with GPT-3 OpenAI
@@ -25,7 +31,7 @@ function Header(props) {
             <div className="gpt3__header-img">
                 <img src={AI} alt='AI'/>
             </div>
-        </div>
+        </motion.div>
     );
 }
 
